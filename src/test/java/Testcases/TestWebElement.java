@@ -21,6 +21,11 @@ public class TestWebElement {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://login.yahoo.com");
 
+		/*
+		 * 
+		 * Adding Comments
+		 * 
+		 * */
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
